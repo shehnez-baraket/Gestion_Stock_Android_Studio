@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FBE5FF">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        style="@style/MyTextView" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        style="@style/MyTextView" />
+
+    <TextView
+        android:id="@+id/prix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prix"
+        style="@style/MyTextView" />
+
+</LinearLayout>

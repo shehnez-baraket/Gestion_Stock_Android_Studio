@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#FBE5FF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/nom"
+            style="@style/MyEditText"
+            android:hint="Nom produit"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/prix"
+            style="@style/MyEditText"
+            android:hint="Prix du produit"
+            android:inputType="numberDecimal" />
+
+
+        <Button
+            android:id="@+id/add"
+            style="@style/MyButton"
+            android:text="Ajouter produit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#800080"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
